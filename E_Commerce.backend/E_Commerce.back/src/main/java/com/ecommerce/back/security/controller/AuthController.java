@@ -101,5 +101,4 @@ public class AuthController {
         CookieUtil.clear(httpServletResponse, cookieName);
         return new ResponseEntity<>(new Message("Sesión cerrada"), HttpStatus.OK);
     }
-
 }

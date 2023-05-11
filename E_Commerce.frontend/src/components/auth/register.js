@@ -36,7 +36,7 @@ function Register() {
     <div className={registerStyles.container}>
       <Stack spacing={2} className={registerStyles.card} justifyContent="center" alignItems="center">
         <Typography variant="h4" component="h2" fontWeight={600}>
-          Crea tu cuenta
+          Crea una cuenta
         </Typography>
         <img src='https://cdn-icons-png.flaticon.com/512/1040/1040254.png' alt='logo' height={100} />
         <TextField id="userName" autoComplete="off" onChange={e => handleForm(e)} value={registerData.userName} label="Usuario" variant="outlined" />
